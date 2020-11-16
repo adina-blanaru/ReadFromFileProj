@@ -1,0 +1,14 @@
+IdScenariu: 001
+NumeScenariu: Scenariu1
+User: test.user@test.com
+Password: password123
+
+IdScenariu: 002
+NumeScenariu: Scenariu2
+User: test.user@test.com
+Password: password123
+
+IdScenariu: 003
+NumeScenariu: Scenariu3
+User: test.user@test.com
+Password: password123
