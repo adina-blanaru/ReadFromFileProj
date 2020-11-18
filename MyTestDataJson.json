@@ -1,0 +1,24 @@
+{
+  "ScenarioDto": [
+    {
+      "TestCaseName": "VerifyScenrio1",
+      "TestInput": "my 1st input",
+      "OtherInfo": "other information 1",
+      "Values": [ "test1", "test2", "test3" ]
+    },
+    {
+      "TestCaseName": "VerifyScenrio2",
+      "TestInput": "my 2nd input",
+      "OtherInfo": "other information 2",
+      "Values": [ "2nd-test1", "2nd-test2", "2nd-test3" ]
+    },
+    {
+      "TestCaseName": "VerifyScenrio3",
+      "TestInput": "my 3rd input",
+      "OtherInfo": "other information 3",
+      "Values": [ "3rd-test1", "3rd-test2", "3rd-test3" ]
+    }
+  ]
+
+
+}

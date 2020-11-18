@@ -113,6 +113,28 @@ namespace ReadFromFileProj
             ////----------------------------------------------------------------------------------
 
 
+            ////Json serialize
+            //ScenarioDto.JsonSerialize();
+            //Console.ReadKey();
+            ////----------------------------------------------------------------------------------
+
+
+            ////Json deserialize
+            //ScenarioDto.JsonDeserialize();
+            //Console.ReadKey();
+            ////----------------------------------------------------------------------------------
+
+
+            ////load values from json file
+            var myList = ScenarioDto.LoadValuesFromJsonFile();
+            foreach (var element in myList)
+            {
+                Console.WriteLine($"Elementul {myList.IndexOf(element)}: {element.TestCaseName}, {element.TestInput}, {element.OtherInfo}, numarul de valori in campul values: {element.Values.Count}");
+            }
+            Console.ReadKey();
+            ////----------------------------------------------------------------------------------
+
+
         }
     }
 }
